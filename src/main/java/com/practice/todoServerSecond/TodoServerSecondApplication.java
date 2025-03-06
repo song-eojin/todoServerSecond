@@ -11,8 +11,6 @@ public class TodoServerSecondApplication {
 	public static void main(String[] args) {
 
 		SpringApplication.run(TodoServerSecondApplication.class, args);
-		LocalDateTime dueDate = LocalDateTime.now();
-		System.out.println(dueDate);
 	}
 
 }
